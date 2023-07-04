@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Email Notification</title>
+</head>
+<body>
+    <h2>Email Notification</h2>
+
+    <p>Hello {{ recipient_name }},</p>
+
+    <p>This is a notification email from your Django application. Here are the details:</p>
+
+    <ul>
+        <li>Subject: {{ email_subject }}</li>
+        <li>Message: {{ email_message }}</li>
+    </ul>
+
+    <p>Thank you for using our application!</p>
+
+    <p>Best regards,</p>
+    <p>Your Application Team</p>
+</body>
+</html>
