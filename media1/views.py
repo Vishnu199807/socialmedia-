@@ -101,10 +101,3 @@ def update_post(request, pk):
     return render(request, 'update_post.html', {'form': form, 'post': post})
 
 
-# send_mail(
-#     'Subject of the email',
-#     'Body of the email',
-#     'your-email@gmail.com',  # Replace with the sender's email address
-#     ['recipient1@example.com', 'recipient2@example.com'],  # Replace with the recipient's email addresses
-#     fail_silently=False,
-# )
